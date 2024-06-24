@@ -37,7 +37,7 @@ Install The Otter Player using CDN.
 
 Use the Otter Player Markup in your HTML. That's it 🎉.
 
-```CSS```
+```HTML```
 
 ```HTML
 <otter-player title="Sprite Fight" poster="https://files.vidstack.io/sprite-fight/poster.webp" src="https://files.vidstack.io/sprite-fight/hls/stream.m3u8">
@@ -57,7 +57,7 @@ The Otter Player can be easily customized by altering the players default variab
 
 ```CSS```
 
-```css
+```CSS
 :root {
   /* otter player variables */
   --otter-player-width: 100%;
