@@ -22,6 +22,8 @@
 
 Setup Otter Player using CDN.
 
+```<head>```
+
 ```html
 <script type="module" src="https://unpkg.com/otter-player"></script>
 ```
@@ -55,7 +57,7 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ## To do
 
-- [ ] Subtitles support.
+- [ ] Caption support.
 - [ ] Add support for React.
 
 <!--## Backers
