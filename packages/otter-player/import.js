@@ -1,4 +1,4 @@
-import { otterStyles } from './otter-styles.min.js';const otterStylesElement = document.createElement('style');otterStylesElement.innerHTML = otterStyles;document.head.appendChild(otterStylesElement);
+import { otterStyles } from './otter-styles.js';const otterStylesElement = document.createElement('style');otterStylesElement.innerHTML = otterStyles;document.head.appendChild(otterStylesElement);
 
 // import hls.js
 import 'https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js';
