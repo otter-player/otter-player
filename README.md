@@ -40,32 +40,27 @@
 
 Import Mase JS using CDN.
 
-```js
+```html
 import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs';
 ```
 
 #### 🚧 Specific Version
-```js
+```html
 import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
 ```
 
-<!--#### 🚧 Development
-```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/paperjs@latest"></script>
-```-->
-
 ## Usage
 
-Use the tree structure in your Javascript. <!--Refer to the [Documentation](https://paperui.com) for more guidance on using the library.-->That's it 🎉.
+Use the tree structure in your Javascript. That's it 🎉.
 
 ```script.js```
 
 ```HTML
 <script type="module" src="https://unpkg.com/otter-player@latest"></script>
 
-<otter disable-volume-slider style="top: 0;left: 0;right: 0;bottom: 0;border-radius: 0px;position: fixed;" title="Sprite Fight" poster="https://files.vidstack.io/sprite-fight/poster.webp" src="https://files.vidstack.io/sprite-fight/hls/stream.m3u8">
+<otter-player title="Sprite Fight" poster="https://files.vidstack.io/sprite-fight/poster.webp" src="https://files.vidstack.io/sprite-fight/hls/stream.m3u8">
   <otter-layout></otter-layout>
-</otter>
+</otter-player>
 ```
 
 Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).

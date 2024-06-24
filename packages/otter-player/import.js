@@ -335,10 +335,10 @@ updatePlayPauseButton() {
 
 
 // Inject the player into the Otter layout
-const otterElement = document.querySelector('otter');
+const otterElement = document.querySelector('otter-player');
 if (otterElement) {
   const otterLayoutElement = document.querySelector('otter-layout');
-  const otterPlayerElement = document.createElement('otter-player');
+  const otterPlayerElement = document.createElement('otter-player-inner');
   const videoElement = document.createElement('video');
   otterPlayerElement.appendChild(videoElement);
   otterLayoutElement.appendChild(otterPlayerElement);
