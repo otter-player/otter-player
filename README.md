@@ -65,7 +65,7 @@ Use the tree structure in your Javascript. That's it 🎉.
 
 Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
-## attributes
+## Attributes
 
 ## Customization
 
