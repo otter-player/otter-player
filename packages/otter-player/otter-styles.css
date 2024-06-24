@@ -3,7 +3,7 @@
 :root {
   /* otter player variables */
   --otter-player-width: 100%;
-  --otter-player-height: 650px;
+  --otter-player-height: 100%;
   --otter-player-background-color: #000000;
   --otter-player-border-radius: 15px;
   --otter-player-object-fit: contain;
@@ -141,6 +141,14 @@ otter[disable-controls] otter-layout otter-player video {
   opacity: 1 !important;
 }
 
+/*otter:hover otter-layout otter-structure {
+  opacity: 1;
+}
+
+otter:hover otter-layout otter-player video {
+  opacity: 0.5;
+}*/
+
 otter[disable-spinner] otter-layout otter-player otter-spinner-container otter-spinner {
   display: none !important;
 }
@@ -219,8 +227,11 @@ otter otter-layout otter-player video {
   pointer-events: none;
   background-color: var(--otter-player-background-color);
   object-fit: var(--otter-player-object-fit);
+  transition: var(--otter-player-transition);
   opacity: 0.5;
-    /*position: absolute;
+  /*opacity: 1;*/
+  
+  /*position: absolute;
   inset: 0px;*/
 }
 
@@ -296,6 +307,8 @@ otter otter-layout otter-structure {
   flex-direction: column;
   display: flex;
   align-items: center;
+  /*opacity: 0;*/
+  transition: var(--otter-player-transition);
 }
 
 otter otter-layout otter-structure otter-top {
