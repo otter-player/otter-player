@@ -1,44 +1,26 @@
 <p align="center">
-<img alt="Logo Banner" src="https://raw.githubusercontent.com/masejs/masejs/main/banner/banner.svg?sanitize=true"/>
+<img alt="Logo Banner" src="https://raw.githubusercontent.com/otter-player/otter-player/main/banner/banner.svg?sanitize=true"/>
 <br/>
-
-[![npm version](https://img.shields.io/npm/v/masejs.svg)](https://www.npmjs.com/package/masejs)
-[![](https://data.jsdelivr.com/v1/package/npm/masejs/badge)](https://www.jsdelivr.com/package/npm/masejs)
-![Forks](https://img.shields.io/github/forks/masejs/masejs.svg?style=flat)
-![Stars](https://img.shields.io/github/stars/masejs/masejs.svg?style=flat)
-![Issues](https://img.shields.io/github/issues/masejs/masejs.svg?style=flat)
-![License](https://img.shields.io/badge/license-MIT-green)
-[![Donate on Kofi](https://img.shields.io/badge/Donate-Kofi-F16061?logo=ko-fi&logoColor=white)](https://ko-fi.com/brick_wall)
-<a href="https://discord.gg/Mbtnv9BN">
-  <img src="https://img.shields.io/badge/discord-join-7289DA.svg?logo=discord&longCache=true&style=flat" />
-</a>
-
-<!--[File Size](https://img.shields.io/github/size/masejs/masejs/packages/masejs/import.min.js?style=flat-square)-->
-<!--[![](https://data.jsdelivr.com/v1/package/npm/paperjs/badge)](https://www.jsdelivr.com/package/npm/paperjs)-->
-<!--<img src="https://m3-markdown-badges.vercel.app/stars/1/3/Opensource-Paper/PaperJS">
-<img src="https://m3-markdown-badges.vercel.app/issues/1/2/Opensource-Paper/PaperJS">
-<img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceMIT/licencemit3.svg">
-<a href="https://discord.gg/Mbtnv9BN">
-  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Discord/discord1.svg">
-</a>-->
 
 <div align="left">Mase JS is a new way to write HTML entirely in your JavaScript.</div>
 <div align="left">
 
-<!--[Documentation](https://paperui.com/)-->
-<!--[Discord](https://discord.gg/Mbtnv9BN)-->
+<!--[Documentation]()-->
+<!--[Discord]()-->
 
 </div>
 
 ## Features
 
-
+- Feature 1.
+- Feature 2.
+- Feature 3.
 
 ## Installation
 
 ### CDN
 
-Import Mase JS using CDN.
+Setup Otter Player using CDN.
 
 ```html
 import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs';
@@ -53,11 +35,9 @@ import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
 
 Use the tree structure in your Javascript. That's it 🎉.
 
-```script.js```
+```HTML```
 
 ```HTML
-<script type="module" src="https://unpkg.com/otter-player@latest"></script>
-
 <otter-player title="Sprite Fight" poster="https://files.vidstack.io/sprite-fight/poster.webp" src="https://files.vidstack.io/sprite-fight/hls/stream.m3u8">
   <otter-layout></otter-layout>
 </otter-player>
@@ -67,11 +47,15 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ## Attributes
 
+
+
 ## Customization
+
+
 
 ## To do
 
-- [ ] Subtitle Support.
+- [ ] Subtitles / Captions support.
 
 <!--## Backers
 
