@@ -33,7 +33,7 @@ Setup Otter Player using CDN.
 <script type="module" src="https://unpkg.com/otter-player@latest"></script>
 ```
 
-## Usage
+## Usage example
 
 Use the tree structure in your Javascript. That's it 🎉.
 

@@ -1,6 +1,6 @@
 {
   "name": "otter-player",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Its cute just like an Otter",
   "main": "import.js",
   "unpkg": "import.min.js",
@@ -16,5 +16,21 @@
   "bugs": {
     "url": "https://github.com/otter-player/otter-player/issues"
   },
-  "homepage": "https://github.com/otter-player/otter-player"
+  "homepage": "https://github.com/otter-player/otter-player",
+  "keywords": [
+    "audio",
+    "javascript",
+    "html",
+    "player",
+    "streaming",
+    "ui",
+    "video",
+    "hls",
+    "accessibility",
+    "web-components",
+    "media",
+    "dash",
+    "customizable",
+    "otter-player"
+  ]
 }
