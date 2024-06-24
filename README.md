@@ -35,7 +35,7 @@ Setup Otter Player using CDN.
 
 ## Usage example
 
-Use the tree structure in your Javascript. That's it 🎉.
+Use the Player Markup in your HTML. That's it 🎉.
 
 ```html```
 
