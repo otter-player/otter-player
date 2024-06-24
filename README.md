@@ -23,12 +23,12 @@
 Setup Otter Player using CDN.
 
 ```html
-import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs';
+<script type="module" src="https://unpkg.com/otter-player"></script>
 ```
 
 #### 🚧 Specific Version
 ```html
-import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
+<script type="module" src="https://unpkg.com/otter-player@latest"></script>
 ```
 
 ## Usage
