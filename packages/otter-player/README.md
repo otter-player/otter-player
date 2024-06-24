@@ -59,6 +59,8 @@ The Otter Player can be easily customized by altering the players default variab
 
 ```CSS
 :root {
+  /* otter player default variables */
+
   /* otter player variables */
   --otter-player-width: 100%;
   --otter-player-height: 100%;
