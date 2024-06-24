@@ -55,7 +55,8 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ## To do
 
-- [ ] Subtitles / Captions support.
+- [ ] Subtitles support.
+- [ ] Add support for React.
 
 <!--## Backers
 
