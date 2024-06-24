@@ -30,6 +30,10 @@
 
 </div>
 
+## Features
+
+
+
 ## Installation
 
 ### CDN
@@ -56,43 +60,12 @@ Use the tree structure in your Javascript. <!--Refer to the [Documentation](http
 
 ```script.js```
 
-```js
-import { MaseJSInterpreter } from 'https://cdn.jsdelivr.net/npm/masejs@latest';
+```HTML
+<script type="module" src="https://unpkg.com/otter-player@latest"></script>
 
-const masejs = {
-  div: {
-    center: 'true',
-    class: 'button-container',
-    styles: {
-      height: '100%',
-      width: '100%',
-      inset: '0px',
-      position: 'fixed',
-    },
-    button: [
-      {
-        value: 'Click me',
-        styles: {
-          color: 'white',
-          'background-color': '#000000',
-          outline: 'none',
-          border: 'none',
-          height: '38px',
-          width: '88px',
-          'border-radius': '5px',
-          cursor: 'pointer',
-        },
-        class: 'button',
-        id: 'button',
-        events: {
-          click: () => alert('Button clicked!')
-        },
-      }
-    ]
-  }
-};
-
-MaseJSInterpreter.interpret(masejs);
+<otter disable-volume-slider style="top: 0;left: 0;right: 0;bottom: 0;border-radius: 0px;position: fixed;" title="Sprite Fight" poster="https://files.vidstack.io/sprite-fight/poster.webp" src="https://files.vidstack.io/sprite-fight/hls/stream.m3u8">
+  <otter-layout></otter-layout>
+</otter>
 ```
 
 Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
