@@ -33,7 +33,7 @@ Setup Otter Player using CDN.
 <script type="module" src="https://unpkg.com/otter-player@latest"></script>
 ```
 
-## Usage example
+## Usage Example
 
 Use the Player Markup in your HTML. That's it 🎉.
 
