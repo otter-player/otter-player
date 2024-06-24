@@ -20,7 +20,7 @@
 
 ### CDN
 
-Install Otter Player using CDN.
+Install The Otter Player using CDN.
 
 ```<head>```
 
@@ -35,7 +35,7 @@ Install Otter Player using CDN.
 
 ## Usage Example
 
-Use the Player Markup in your HTML. That's it 🎉.
+Use the Otter Player Markup in your HTML. That's it 🎉.
 
 ```html```
 
@@ -53,7 +53,7 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ## Customization
 
-Otter Player can be easily customized by altering the players default variables in the ```:root```.
+The Otter Player can be easily customized by altering the players default variables in the ```:root```.
 
 ```css```
 
