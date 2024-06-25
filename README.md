@@ -104,7 +104,7 @@ The crossorigin attribute can be set to one of the following values:
 
 ## Customization
 
-The Otter Player can be easily customized by altering the players default variables in the ```:root``` of your CSS.
+The Otter Player styles can be easily customized by altering the players default variables in the ```:root``` of your CSS.
 
 ```CSS```
 
