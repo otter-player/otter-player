@@ -67,6 +67,28 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ```playsinline```
 
+```disabled```
+
+```disable-controls```
+
+```disable-spinner```
+
+```disable-volume-slider```
+
+```disable-seek-bar```
+
+```disable-title```
+
+```disable-center-controls```
+
+```disable-seek-buttons```
+
+```disable-seek-left-button```
+
+```disable-seek-right-button```
+
+```disable-play-pause-button```
+
 ## Customization
 
 The Otter Player can be easily customized by altering the players default variables in the ```:root``` of your CSS.
