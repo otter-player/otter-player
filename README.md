@@ -49,7 +49,23 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ## Attributes
 
+```src```
 
+```poster```
+
+```loop```
+
+```muted```
+
+```volume```
+
+```autoplay```
+
+```preload```
+
+```crossorigin```
+
+```playsinline```
 
 ## Customization
 
