@@ -68,10 +68,12 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 | ```"auto"``` | ```"metadata"``` | ```"none"``` |
 |------|----------|------|
 
-```crossorigin``` specifies how the element handles cross-origin requests. The crossorigin attribute can be one of the following values:
+The ```crossorigin``` attribute, when used with the otter-player element, specifies how the player handles cross-origin requests. This is an important consideration for ensuring the proper handling of resources, such as thumbnails or subtitles, that may be hosted on a different domain than the main web application. 
 
-- ```"anonymous"```
-- ```"use-credentials"```
+The crossorigin attribute can be set to one of the following values:
+
+- ```"anonymous"```: This value indicates that the player will make cross-origin requests without sending user credentials (such as cookies or HTTP authentication). This is the default behavior and is suitable for accessing public resources.
+- ```"use-credentials"```: This value indicates that the player will make cross-origin requests while sending user credentials. This is necessary when accessing resources that require authentication or authorization, such as private video files or user-specific subtitles.
 
 ```playsinline```
 
