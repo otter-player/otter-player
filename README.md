@@ -59,6 +59,9 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ```volume```
 
+|  ```"0"``` to  ```"1"``` |
+|------|
+
 ```autoplay```
 
 ```preload```
