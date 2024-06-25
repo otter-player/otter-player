@@ -68,7 +68,7 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 | ```"auto"``` | ```"metadata"``` | ```"none"``` |
 |------|----------|------|
 
-```crossorigin```
+```crossorigin``` Specifies how the element handles cross-origin requests. Possible values:
 
 | ```"anonymous"``` | ```"use-credentials"``` |
 |-----------|-----------------|
