@@ -12,8 +12,8 @@
 
 ## Features
 
-- Feature 1.
-- Feature 2.
+- Streaming support via HLS and DASH.
+- Keyboard shortcuts.
 - Feature 3.
 
 ## Installation
