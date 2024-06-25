@@ -219,7 +219,9 @@ The Otter Player styles can be easily customized by altering the players default
 }
 ```
 
-## To do
+## Keyboard Shortcuts
+
+## To Do
 
 - [ ] Caption support.
 - [ ] Add support for React.

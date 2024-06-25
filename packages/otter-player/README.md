@@ -12,8 +12,8 @@
 
 ## Features
 
-- Feature 1.
-- Feature 2.
+- Streaming support via HLS and DASH.
+- Keyboard shortcuts.
 - Feature 3.
 
 ## Installation
@@ -49,11 +49,62 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ## Attributes
 
+```src```
 
+```poster```
+
+```loop```
+
+```muted```
+
+```volume```
+
+```duration```
+
+```autoplay```
+
+The ```preload``` attribute, when used with the otter-player element, specifies how the player should handle the preloading of the video content. This is an important consideration for optimizing the user experience and managing the initial loading of the video resource.
+
+The preload attribute can be set to one of the following values:
+
+- ```"auto"```: This value indicates that the player should automatically determine the most appropriate preload behavior based on the user's connection speed and device capabilities. The player may choose to preload the entire video or only the initial metadata, depending on the available resources and the user's bandwidth.
+- ```"metadata"```: This value indicates that the player should only preload the initial metadata of the video, such as the duration, dimensions, and title. This can help reduce the initial load time and conserve bandwidth, especially for users with slower internet connections.
+- ```"none"```: This value indicates that the player should not preload any video content. Instead, the video will only be loaded when the user initiates playback. This can be useful for conserving system resources and bandwidth, particularly on mobile devices or for videos that may not be viewed by all users.
+
+The ```crossorigin``` attribute, when used with the otter-player element, specifies how the player handles cross-origin requests. This is an important consideration for ensuring the proper handling of resources, such as thumbnails or subtitles, that may be hosted on a different domain than the main web application. 
+
+The crossorigin attribute can be set to one of the following values:
+
+- ```"anonymous"```: This value indicates that the player will make cross-origin requests without sending user credentials (such as cookies or HTTP authentication). This is the default behavior and is suitable for accessing public resources.
+- ```"use-credentials"```: This value indicates that the player will make cross-origin requests while sending user credentials. This is necessary when accessing resources that require authentication or authorization, such as private video files or user-specific subtitles.
+
+```playsinline```
+
+```disabled```
+
+```disable-controls```
+
+```disable-spinner```
+
+```disable-volume-slider```
+
+```disable-seek-bar```
+
+```disable-title```
+
+```disable-center-controls```
+
+```disable-seek-buttons```
+
+```disable-seek-left-button```
+
+```disable-seek-right-button```
+
+```disable-play-pause-button```
 
 ## Customization
 
-The Otter Player can be easily customized by altering the players default variables in the ```:root``` of your CSS.
+The Otter Player styles can be easily customized by altering the players default variables in the ```:root``` of your CSS.
 
 ```CSS```
 
@@ -168,7 +219,9 @@ The Otter Player can be easily customized by altering the players default variab
 }
 ```
 
-## To do
+## Keyboard Shortcuts
+
+## To Do
 
 - [ ] Caption support.
 - [ ] Add support for React.
