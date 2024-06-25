@@ -70,6 +70,9 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ```crossorigin```
 
+| ```"anonymous"``` | ```"use-credentials"``` |
+|-----------|-----------------|
+
 ```playsinline```
 
 ```disabled```
