@@ -68,10 +68,10 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 | ```"auto"``` | ```"metadata"``` | ```"none"``` |
 |------|----------|------|
 
-```crossorigin``` Specifies how the element handles cross-origin requests. Possible values:
+```crossorigin``` specifies how the element handles cross-origin requests. The crossorigin attribute can be one of the following values:
 
-| ```"anonymous"``` | ```"use-credentials"``` |
-|-----------|-----------------|
+- ```"anonymous"```
+- ```"use-credentials"```
 
 ```playsinline```
 
