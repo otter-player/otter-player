@@ -63,10 +63,13 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ```autoplay```
 
-```preload```
+The ```preload``` attribute, when used with the otter-player element, specifies how the player should handle the preloading of the video content. This is an important consideration for optimizing the user experience and managing the initial loading of the video resource.
 
-| ```"auto"``` | ```"metadata"``` | ```"none"``` |
-|------|----------|------|
+The preload attribute can be set to one of the following values:
+
+- ```"auto"```: This value indicates that the player should automatically determine the most appropriate preload behavior based on the user's connection speed and device capabilities. The player may choose to preload the entire video or only the initial metadata, depending on the available resources and the user's bandwidth.
+- ```"metadata"```: This value indicates that the player should only preload the initial metadata of the video, such as the duration, dimensions, and title. This can help reduce the initial load time and conserve bandwidth, especially for users with slower internet connections.
+- ```"none"```: This value indicates that the player should not preload any video content. Instead, the video will only be loaded when the user initiates playback. This can be useful for conserving system resources and bandwidth, particularly on mobile devices or for videos that may not be viewed by all users.
 
 The ```crossorigin``` attribute, when used with the otter-player element, specifies how the player handles cross-origin requests. This is an important consideration for ensuring the proper handling of resources, such as thumbnails or subtitles, that may be hosted on a different domain than the main web application. 
 
