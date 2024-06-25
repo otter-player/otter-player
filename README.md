@@ -63,7 +63,7 @@ Check out the demo on [Codepen](https://codepen.io/GreenestGoat/pen/QWRxNYb).
 
 ```preload```
 
-| auto | metadata | none |
+| ```"auto"``` | metadata | none |
 |------|----------|------|
 
 ```crossorigin```
