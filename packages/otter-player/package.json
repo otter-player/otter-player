@@ -1,6 +1,6 @@
 {
   "name": "otter-player",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Its cute just like an Otter",
   "main": "import.js",
   "unpkg": "import.min.js",
